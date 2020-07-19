@@ -1,0 +1,116 @@
+/* nav-bar */
+.navbar {
+  background-color: #fff;
+}
+
+.nav-item {
+  font-family: "Raleway", sans-serif;
+}
+
+/* gallery section */
+#gallery {
+  background: linear-gradient(21deg, #2584ff 31%, #4270fc 45%, #6db0d9 70%);
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+#gallery img {
+  padding: 1.5%;
+  width: 70%;
+  height: 70%;
+}
+
+/* contact form */
+#contact {
+  background: linear-gradient(21deg, #2584ff 31%, #4270fc 45%, #6db0d9 70%);
+}
+
+.contact {
+  padding: 4%;
+  height: 400px;
+}
+
+.col-md-3 {
+  background: #448C30;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info {
+  margin-top: 10%;
+}
+
+.contact-info img {
+  margin-bottom: 15%;
+}
+
+.contact-info h2 {
+  margin-bottom: 10%;
+}
+
+.col-md-9 {
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form button {
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+
+.contact-form button:focus {
+  box-shadow: none;
+}
+
+h1, h2, h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.whitebg {
+  background-color: #ffffff;
+}
+
+.bluebg {
+  background-color: #2955d5;
+}
+
+.content {
+  margin-left: 15%;
+  padding: 1%;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+}
+
+.double {
+  font-size: 200%;
+}
+
+/*# sourceMappingURL=style.css.map */
