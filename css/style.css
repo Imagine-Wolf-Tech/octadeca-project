@@ -4,7 +4,7 @@
 }
 
 .nav-item {
-  font-family: "Raleway", sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 /* gallery section */
@@ -72,13 +72,8 @@
   box-shadow: none;
 }
 
-h1, h2, h3 {
-  font-family: "Libre Baskerville", serif;
-}
-
 * {
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
 }
 
 body, html {
@@ -88,10 +83,13 @@ body, html {
 
 .whitebg {
   background-color: #ffffff;
+  padding: 10px 0;
 }
 
 .bluebg {
   background-color: #2955d5;
+  color: #ffffff;
+  padding: 10px 0;
 }
 
 .content {
@@ -112,6 +110,7 @@ body, html {
 }
 
 header {
+  font-family: "Libre Baskerville", serif;
   padding: 30px;
 }
 
@@ -147,6 +146,12 @@ header {
   padding: 16px;
   text-align: center;
   background-color: #ffffff;
+}
+
+.elementblue {
+  padding: 16px;
+  text-align: center;
+  background-color: #2955d5;
 }
 
 .hero-image {
