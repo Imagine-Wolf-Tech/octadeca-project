@@ -143,10 +143,24 @@ header {
   background-color: #f1f1f1;
 }
 
+.element {
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
 .hero-image {
   width: 100%;
   padding: 10px 0;
   position: relative;
+}
+
+.img-right {
+  float: right;
+}
+
+.img-left {
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */
