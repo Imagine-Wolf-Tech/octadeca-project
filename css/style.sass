@@ -24,14 +24,6 @@ body, html
     margin-left: 15%
     padding: 1%
 
-.right
-    text-align: right
-
-.left
-    text-align: left
-
-.center
-    text-align: center
 
 header
     font-family: $headings-font
@@ -63,12 +55,6 @@ header
     text-align: center
     background-color: #f1f1f1
 
-@media screen and (max-width: 1080px)
-  .column
-    width: 100%
-    display: block
-    margin-bottom: 20px
-
 .element 
     padding: 16px
     text-align: center
@@ -94,4 +80,29 @@ header
     &.md-12  
         font-size: 12px
 
+.img-container 
+  max-width: 1000px
+  position: relative
+  margin: auto
 
+
+.img-text
+    position: absolute // Position the background text 
+    background: rgb(0, 0, 0) // Fallback color 
+    background: rgba(0, 0, 0, 0.5) // Black background with 0.5 opacity
+    color: #f1f1f1 // Grey text 
+    font-size: 15px
+    padding: 15px
+    bottom: 0px
+    width: 100%
+    text-align: center
+
+// align text
+.right
+    text-align: right
+
+.left
+    text-align: left
+
+.center
+    text-align: center
